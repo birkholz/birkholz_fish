@@ -13,28 +13,28 @@
 
 
 ```fish
-$ omf install birkholz
+$ omf install https://github.com/birkholz/birkholz_fish
 ```
 
 ## Features
 
-* Lorem ipsum dolor sit amet.
-* Consectetur adipisicing elit.
+* Right-hand prompt with timestamps, git status, pwd, and virtualenv
+* Simple left-hand prompt that keeps input clean and organized
 
 ## Screenshot
 
 <p align="center">
-<img src="{{SCREENSHOT_URL}}">
+<img src="http://i.imgur.com/17vtHa9.png">
 </p>
 
 # License
 
-[MIT][mit] © [{{USER}}][author] et [al][contributors]
+[MIT][mit] © [birkholz][author]
 
 
 [mit]:            http://opensource.org/licenses/MIT
-[author]:         http://github.com/{{USER}}
-[contributors]:   https://github.com/{{USER}}/birkholz/graphs/contributors
+[author]:         http://github.com/birkholz
+[contributors]:   https://github.com/birkholz/birkholz_fish/graphs/contributors
 [omf-link]:       https://www.github.com/oh-my-fish/oh-my-fish
 
 [license-badge]:  https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square
