@@ -1,9 +1,9 @@
 function _git_branch_name
-  echo (command git symbolic-ref HEAD ^/dev/null | sed -e 's|^refs/heads/||') | awk -v len=20 '{ if (length($0) > len) print substr($0, 1, len-1) "…"; else print; }'
+  echo (command git symbolic-ref HEAD 2>/dev/null | sed -e 's|^refs/heads/||') | awk -v len=20 '{ if (length($0) > len) print substr($0, 1, len-1) "…"; else print; }'
 end
 
 function _is_git_dirty
-  echo (command git status -s --ignore-submodules=dirty ^/dev/null)
+  echo (command git status -s --ignore-submodules=dirty 2>/dev/null)
 end
 
 function fish_right_prompt
